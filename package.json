@@ -1,0 +1,26 @@
+{
+  "name": "dynamic-iconfont",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gen:font": "node ./build/generateFont.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kathy-wong/dynamic-iconfont.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kathy-wong/dynamic-iconfont/issues"
+  },
+  "homepage": "https://github.com/kathy-wong/dynamic-iconfont#readme",
+  "devDependencies": {
+    "inquirer": "^9.1.4",
+    "npmlog": "^7.0.1",
+    "slash": "^5.0.0"
+  }
+}
